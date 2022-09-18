@@ -2,5 +2,9 @@
   "baseUrl": "https://catfact.ninja/",
   "routes": {
     "randomFact": "/fact"
+  },
+  "factResponseSchema": {
+    "fact": "string",
+    "length": "number"
   }
 }

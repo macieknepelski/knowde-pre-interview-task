@@ -1,0 +1,30 @@
+{
+  "urls": {
+    "loginPage": "https://www.saucedemo.com",
+    "inventoryPage": "https://www.saucedemo.com/inventory.html",
+    "cartPage": "https://www.saucedemo.com/cart.html",
+    "checkoutStepOne": "https://www.saucedemo.com/checkout-step-one.html",
+    "checkoutStepTwo": "https://www.saucedemo.com/checkout-step-two.html",
+    "checkoutComplete": "https://www.saucedemo.com/checkout-complete.html"
+  },
+  "credentials": {
+    "1": { "login": "standard_user", "password": "secret_sauce" },
+    "2": { "login": "locked_out_user", "password": "secret_sauce" },
+    "3": { "login": "problem_user", "password": "secret_sauce" },
+    "4": { "login": "performance_glitch_user", "password": "secret_sauce" }
+  },
+  "targetInventoryItem": {
+    "name": "Sauce Labs Backpack",
+    "price": "$29.99"
+  },
+  "checkoutFormData": {
+    "firstName": "first",
+    "lastName": "last",
+    "zipPostalCode": "000"
+  },
+  "resolutions": {
+    "small": {"width": 576, "height": 960},
+    "medium": {"width": 820, "height": 1180},
+    "high": {"width": 1920, "height": 1080}
+  }
+}

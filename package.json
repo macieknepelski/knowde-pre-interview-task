@@ -1,0 +1,12 @@
+{
+  "author": {
+    "name": "Maciej Nepelski"
+  },
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "test:headless": "cypress run --headless"
+  }
+}

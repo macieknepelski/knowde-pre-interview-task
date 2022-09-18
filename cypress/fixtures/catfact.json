@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://catfact.ninja/",
+  "routes": {
+    "randomFact": "/fact"
+  }
+}

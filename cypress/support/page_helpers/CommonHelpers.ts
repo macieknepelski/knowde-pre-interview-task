@@ -3,7 +3,7 @@ export class CommonHelpers {
     sessionStorageUsernameKey: 'session-username',
   };
   public static assertSessionUsernameCookie(value: string) {
-    this.assertCookieExists('session-username', value);
+    this.assertCookieExists(this.texts.sessionStorageUsernameKey, value);
   }
   public static assertCookieExists(key: string, value: string) {
     cy.getCookie(key)
